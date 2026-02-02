@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Configurações Básicas */
+    "target": "es2016",                                  /* Versão do JavaScript gerado */
+    "module": "commonjs",                                /* O padrão do Node.js */
+    "moduleResolution": "node",                          /* Como o TS encontra os arquivos */
+    "esModuleInterop": true,                             /* Permite usar 'import' compatível com pacotes CommonJS */
+    "forceConsistentCasingInFileNames": true,            /* Evita erros de maiúsculas/minúsculas em arquivos */
+    "strict": true,                                      /* Ativa verificações estritas de tipo (bom para segurança) */
+    "skipLibCheck": true,                                /* Pula verificação de arquivos de definição (.d.ts) para agilizar */
+    
+    /* Organização de Pastas */
+    "rootDir": "./src",                                  /* Onde está seu código fonte */
+    "outDir": "./dist",                                  /* Onde ficará o código compilado */
+    
+    /* Correção do seu Erro */
+    "verbatimModuleSyntax": false,                       /* Desativa a regra estrita que causou o erro */
+    "resolveJsonModule": true                            /* Permite importar arquivos .json se necessário */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
