@@ -16,11 +16,25 @@ export interface RouteSegment {
     geometry: string; // linha da rota para desenhar no mapa
 }
 
+export interface ChargingStop {
+    lat: number;
+    lon: number;
+    name?: string;
+    address?: string;
+    id?: string;
+}
+
 export interface TripPlanResponse {
-    origin: Coordinates;
-    destination: Coordinates;
+    origin: Coordinates | null;
+    destination: Coordinates | null;
     distanceTotal: number;       // km
-    durationTotal: string;       // Texto formatado "Xh Ymin"
-    requiredStops: number;       // Quantidade de recargas necessárias
+    durationTotal: string;
+    requiredStops: number;
     routeGeometry: string;
+    chargingStops: ChargingStop[];
+    polylines: string[];
+    error?: {
+        message: string;
+        suggestion?: string;
+    };
 }

@@ -2,7 +2,7 @@ import axios from 'axios';
 import { ChatRequest, ChatResponse } from './chatbotTypes';
 
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
-const GEMINI_API_KEY = 'AIzaSyABT1mIH6yyCDPTMIFgvUfW6siq0Zylvi4';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 export async function getGeminiResponse(request: ChatRequest): Promise<ChatResponse> {
   try {
