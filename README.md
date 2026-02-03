@@ -164,7 +164,6 @@ Esta seção descreve como os dados trafegam desde o clique do usuário no Front
 5.  **Saída:** Retorna a resposta textual e uma lista de botões sugeridos (ex: "Ver Dicas").
 
 ---
----
 
 ## 7. Ferramentas Utilizadas
 
@@ -177,6 +176,8 @@ Esta seção descreve como os dados trafegam desde o clique do usuário no Front
 - 🗂️ **GitHub** – Versionamento e gerenciamento do código-fonte
 - 🔑 **API Key (Gemini)** – Autenticação para acesso aos serviços de IA
 - ☁️ **Render** – Deploy e hospedagem do backend da aplicação
+
+---
 
 ## 8. Documentação da Cadeia Lógica de Prompts (Logbook)
 
