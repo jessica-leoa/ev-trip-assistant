@@ -166,7 +166,19 @@ Esta seção descreve como os dados trafegam desde o clique do usuário no Front
 ---
 ---
 
-## 7. Documentação da Cadeia Lógica de Prompts (Logbook)
+## 7. Ferramentas Utilizadas
+
+- 🤖 **ChatGPT 5.2** – Apoio no desenvolvimento, ideação e geração de conteúdo
+- 🧠 **DeepSeek v3.2** – Suporte à análise e geração de código
+- 🧪 **IA Studio** – Ambiente para experimentação e prototipação com IA
+- 🎨 **Lovable** – Geração e design inicial da interface da aplicação
+- 🌐 **Gemini 3 Pro Preview** – Uso de IA generativa para suporte e testes
+- 🔌 **Open Charge Map API** – Consulta de estações de recarga para veículos elétricos
+- 🗂️ **GitHub** – Versionamento e gerenciamento do código-fonte
+- 🔑 **API Key (Gemini)** – Autenticação para acesso aos serviços de IA
+- ☁️ **Render** – Deploy e hospedagem do backend da aplicação
+
+## 8. Documentação da Cadeia Lógica de Prompts (Logbook)
 
 Este documento registra a evolução do projeto através da interação com a IA generativa. Ele demonstra como os requisitos foram traduzidos em código e como problemas técnicos foram solucionados incrementalmente.
 
