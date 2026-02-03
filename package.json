@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Aplicação web para planejamento de viagens em veículos elétricos, integrando cálculo de rotas com autonomia de bateria e um chatbot especialista baseado em IA generativa.",
   "main": "index.js",
- "scripts": {
+  "scripts": {
     "dev": "nodemon src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js"
