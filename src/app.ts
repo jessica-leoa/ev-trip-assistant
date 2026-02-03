@@ -5,8 +5,7 @@ import cors from 'cors';
 import chargingRoutes from './modules/charging/chargingRoutes';
 import tripRoutes from './modules/trip/tripRoutes';
 import efficiencyRoutes from './modules/efficiency/efficiencyRoutes';
-
-
+import chatbotRoutes from './modules/chatbot/chatbotRoutes'; 
 
 const app = express();
 
@@ -17,7 +16,7 @@ app.use(express.json());
 app.use('/api/charging', chargingRoutes);
 app.use('/api/trip', tripRoutes);
 app.use('/api/efficiency', efficiencyRoutes);
-// app.use('/api/chatbot', chatbotRoutes);
+app.use('/api', chatbotRoutes); 
 
 app.get('/', (req, res) => {
     res.send('EV Trip Assistant API Online ⚡');
